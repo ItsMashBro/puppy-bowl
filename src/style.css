@@ -2,8 +2,6 @@
     background-image: url(../src/Images/doodledog.jpg);
     background-position: fixed;
     display: grid;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     margin: auto;
     border: 10px solid;
@@ -13,16 +11,14 @@
 
 img {
     width: 30%;
-    float: left;
 }
 
 .PuppyCard{
     background-color: rgba(255, 255, 255, 0.8);
+    width: fit-content;
     justify-content: center;
     border: 10px solid;
     border-radius: 50px;
     text-align: center;
     flex-direction: row;
-    flex-wrap: wrap;
-    display: grid;
 }
