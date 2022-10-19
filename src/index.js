@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react';
 import ReactDOM from 'react-dom';
 import {FaSearch} from 'react-icons/fa'
 import './style.css';
+import colorLine from './Images/colorline.gif'
+import Rover from './Images/rover-windows-xp.gif'
 
 
 const appElement = document.getElementById('app')
@@ -31,15 +33,21 @@ const Puppybowl = () => {
     
     return (
             <div>
-                <div className='titleCard'>
-                    <h1>Puppy Bowl</h1>
-                    <h2>Behold! Puppies!</h2>
-                    
-                </div>
-                <div>
+
+                <div id='search'>
                     <input type="text" placeholder="Search.." name="search"></input>
                     <button type="submit"><FaSearch /></button>
                 </div>
+
+                <div className='titleCard'>
+                    <img src={colorLine} id='colorLine'></img>
+                    <h1>Puppy Bowl</h1>
+                    <img src={Rover} id='Rover'></img>
+                    <h2>Behold! Puppies!</h2>
+                    <img src={colorLine} id='colorLine'></img>
+                </div>                
+                
+                
 
 
                 <div>

@@ -17,6 +17,7 @@
     border: 5px solid;
     border-radius: 50px;
     padding: 10px;
+    margin-bottom: 5px
 }
 
 img {
@@ -32,4 +33,16 @@ img {
     text-align: center;
     flex-direction: row;
     width: 600px;
+    margin: 5px;
+}
+
+#colorLine {
+    width: 500px;
+}
+
+#Rover {
+    width: 150px;
+}
+#search {
+    padding: 10px;
 }
