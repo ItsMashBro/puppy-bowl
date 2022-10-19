@@ -33,7 +33,10 @@ const Puppybowl = () => {
             <div>
                 <div className='titleCard'>
                     <h1>Puppy Bowl</h1>
-                    <h3>Behold!</h3>
+                    <h2>Behold! Puppies!</h2>
+                    
+                </div>
+                <div>
                     <input type="text" placeholder="Search.." name="search"></input>
                     <button type="submit"><FaSearch /></button>
                 </div>

@@ -6,19 +6,29 @@
     margin: auto;
     border: 10px solid;
     border-color: blue;
+    border-radius: 50px;
     text-align: center;
 }
 
+.titleCard {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: fit-content;
+    margin: auto;
+    border: 5px solid;
+    border-radius: 50px;
+    padding: 10px;
+}
+
 img {
-    width: 30%;
+    width: 50%;
 }
 
 .PuppyCard{
     background-color: rgba(255, 255, 255, 0.8);
-    width: fit-content;
     justify-content: center;
-    border: 10px solid;
+    border: 5px solid;
     border-radius: 50px;
     text-align: center;
     flex-direction: row;
+    width: 600px;
 }
