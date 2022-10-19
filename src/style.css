@@ -1,6 +1,9 @@
-#app {
+body{    
     background-image: url(../src/Images/doodledog.jpg);
-    background-position: fixed;
+}
+
+#app {
+    background-color: skyblue;
     display: grid;
     justify-content: center;
     margin: auto;
@@ -8,32 +11,41 @@
     border-color: blue;
     border-radius: 50px;
     text-align: center;
+    width: 40%;
 }
 
 .titleCard {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(10, 10, 10, 0.8);
+    color: white;
     width: fit-content;
     margin: auto;
-    border: 5px solid;
+    border: 8px solid;
     border-radius: 50px;
+    border-color: black;
     padding: 10px;
     margin-bottom: 5px
 }
 
 img {
-    width: 50%;
+    width: 60%;
     padding: 10px;
 }
 
 .PuppyCard{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(10, 10, 10, 0.8);
+    color: white;
     justify-content: center;
-    border: 5px solid;
+    border: 8px solid;
+    border-color: black;
     border-radius: 50px;
     text-align: center;
     flex-direction: row;
     width: 600px;
     margin: 5px;
+}
+
+p {
+    font-size: 20px;
 }
 
 #colorLine {
