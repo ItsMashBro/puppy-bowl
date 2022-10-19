@@ -49,8 +49,11 @@ const Puppybowl = () => {
                             
                             <div className="PuppyCard" key={idx}>
                                 {console.log(puppy.name)}
-                                <p>Name of Puppy: {puppy.name}</p>
+                                <p>Name of Puppy: {puppy.name} #{puppy.id}</p>
                                 <p>Breed: {puppy.breed}</p>
+                                <p>Status: {puppy.status}</p>
+                                <p>Entered: {puppy.createdAt}</p>
+                                <p>Qualified: {puppy.updatedAt}</p>
                                 <p>Want to know more about {puppy.name}?  <button id='infoButton'>Click Here!</button></p>
                                 <img className='puppyImage' src={puppy.imageUrl} />
                             </div>
